@@ -9,5 +9,5 @@ Each folder contains exercises, notes, and projects developed during the learnin
 
 | Days | Topics Covered |
 |------|----------------|
-| [Day 1 to Day 5](./day1_to_day5) | Variables and Data Types<br>Conditional Statements (if / else)<br>Lists and Loops<br>Random Module<br>Password Generator Project |
-| [Day 6 to Day 10](./day6_to_day10) | Functions and Return Statements<br>While Loops<br>Code Reuse and Debugging<br>Basic Project Structures |
+| [Day 1 to Day 5](./day1_to_day5) | Variables and Data Types, Conditional Statements (if / else), Lists and Loops, Random Modules, Password Generator Project |
+| [Day 6 to Day 10](./day6_to_day10) | Functions, |
