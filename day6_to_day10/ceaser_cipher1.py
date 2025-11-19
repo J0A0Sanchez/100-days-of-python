@@ -1,8 +1,8 @@
 """Todo 1: combine the encrypt and decrypt functions into one
 named ceaser()"""
 
-"""Todo 2: fix to code for what if the customer enter number/symbols
-maintain dele in the text"""
+"""Todo 2: fix to code for what if the user enter number/symbols
+maintain it in the text"""
 
 """Todo 3: Make the user decide when stop by typing 'break' to stop"""
 
@@ -49,5 +49,5 @@ while True:
         text = str(input("Type your message: "))
         shift = int(input("Type the shift number: "))
         ceaser(original_text=text, shift_amount=shift, encode_or_decode=user_input)
-        user_input = str(input("Type 'encode' or 'decode' to start or '0' to stop the program: "))
+        user_input = str(input("Type 'encode' or 'decode' to start or 'break' to stop the program: "))
 
