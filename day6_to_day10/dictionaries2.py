@@ -3,9 +3,11 @@ below"""
 
 nested_list = ["A","B",["C","D"]]
 
+#Using for:
 for item1 in nested_list:
     for item in item1:
         if item == "C":
             print(item)
 
+#Using print (but you the list have to be readable)
 print(nested_list[2][0])

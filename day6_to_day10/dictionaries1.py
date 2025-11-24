@@ -13,10 +13,3 @@ for key in travel_log:
             print(city)
 
 
-
-# list = ["Paris", "Lille", "Dijon"]
-
-
-# for i in list:
-#     if i == "Lille":
-#         print(i)
