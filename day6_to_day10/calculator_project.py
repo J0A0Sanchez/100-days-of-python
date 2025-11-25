@@ -48,7 +48,7 @@ while True:
         result = operations[operator](f_number, s_number)
         print(f"{f_number} {operator} {s_number} = {result} ")
 
-        continue_number = str(input("Type 'y' to continue calculating with or 'n' to restart calculator"))
+        continue_number = str(input("Type 'y' to continue calculating with or 'n' to restart calculator: "))
         if continue_number == "y":
             f_number = result
         
