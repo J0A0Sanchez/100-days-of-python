@@ -37,10 +37,12 @@ def game():
     print(f"I'm thinking of a number between {n1} and {n2}!")
 
 
-    option  = 0
-    while option != 'easy' and option != 'hard': 
-        option = str(input("Choose a difficulty. Type 'easy' or 'hard': "))
+    option = ""
+    while option not in ('easy', 'hard'):
+        option = input("Choose a difficulty. Type 'easy' or 'hard': ").strip().lower()
         dif_level = difficulty(option)
+        if option not in ('easy', 'hard'):
+            print("Wrong option, try again!")
 
 
     while dif_level > 0:
