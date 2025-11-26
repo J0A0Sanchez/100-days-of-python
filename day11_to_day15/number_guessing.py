@@ -21,6 +21,7 @@ def difficulty(option):
 
 
 def game():
+    """Guessing number game which use another two functions to work (difficulty and number_generator)"""
     print(r"""
     _   __                __                 ______                     _                ______                   
    / | / /_  ______ ___  / /_  ___  _____   / ____/_  _____  __________(_)___  ____ _   / ____/___ _____ ___  ___ 
