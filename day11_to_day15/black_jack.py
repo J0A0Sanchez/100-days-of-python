@@ -37,8 +37,13 @@ def compare(u_score, c_score):
         return "You lose!"
 
 
+
+
+
 while input("Do you want to play a BlackJack? Type 'y' or 'n': ") == "y":
+
     os.system("cls")
+
     user_cards = []
     computer_cards = []
     user_score = -1
