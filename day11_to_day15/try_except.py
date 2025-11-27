@@ -9,3 +9,4 @@ except ValueError:
 
 if age >= 18:
     print(f"You can drive at age {age}")
+
