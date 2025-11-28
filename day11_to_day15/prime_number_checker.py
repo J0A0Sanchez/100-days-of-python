@@ -18,6 +18,6 @@ def is_prime(num):
         return False
         
         
-        
+            
 print(is_prime(75))
     
