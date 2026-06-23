@@ -1,6 +1,7 @@
 from turtle import Screen
 from paddles import Paddle
 from divider import Divider
+from ball import Ball
 from time import sleep
 
 # Screen Seteup
@@ -12,7 +13,8 @@ screen.tracer(0)
 
 paddle_right = Paddle((350, 0))   
 paddle_left = Paddle((-350, 0))
-divider = Divider()   
+ball = Ball() 
+divider = Divider()  
 
 screen.listen()
 screen.onkey(paddle_right.go_up, "Up")
