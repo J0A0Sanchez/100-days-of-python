@@ -1,0 +1,17 @@
+Pong Game.
+
+On Screen:
+1. Score - two scores 
+2. Divider on screen - two sides
+3. Ball
+4. Paddles
+
+
+Steps:
+1. Create the screen
+2. Create and move the paddles
+3. Create the ball and make it move across the screen
+4. Detect collision with the wall and bounce
+5. Detect collision with the paddles
+6. Detect when paddle misses
+7. Keep score 
